@@ -1,0 +1,9 @@
+[submodule "pack/florian/start/fzf.vim"]
+	path = pack/florian/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "pack/florian/start/ultisnips"]
+	path = pack/florian/start/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "pack/florian/start/vim-pencil"]
+	path = pack/florian/start/vim-pencil
+	url = https://github.com/reedes/vim-pencil.git

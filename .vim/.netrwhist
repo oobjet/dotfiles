@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/Users/florian/MEGAsync/Musique/tidalcycles'
+let g:netrw_dirhist_3='/Users/florian/MEGAsync/Musique/tidalcycles/365tidalpatterns'
+let g:netrw_dirhist_2='/Users/florian/MEGAsync/Musique/tidalcycles/365tidalpatterns/patterns-001-100'
+let g:netrw_dirhist_1='/Users/florian/MEGAsync/Musique/tidalcycles'
+let g:netrw_dirhist_0='/Users/florian/MEGAsync/Musique/tidalcycles/TidalDiary'
+let g:netrw_dirhist_9='/Users/florian/MEGAsync/Musique/tidalcycles'
+let g:netrw_dirhist_8='/Users/florian/MEGAsync/Musique/tidalcycles/365tidalpatterns'
+let g:netrw_dirhist_7='/Users/florian/MEGAsync/Musique/tidalcycles/365tidalpatterns/patterns-001-100'
+let g:netrw_dirhist_6='/Users/florian/MEGAsync/Musique/tidalcycles'
+let g:netrw_dirhist_5='/Users/florian/script'

@@ -1,0 +1,24 @@
+snippet meta
+---
+title: ${1:Meet UltiSnips}
+author: F.  Antoine
+date: ${2:`date +%Y-%m-%d`}
+tags: $3
+---
+# $1
+$0
+endsnippet
+
+snippet post
+---
+title: ${1:title}
+layout: post
+date: '${2:`date +%Y-%m-%d`}
+categories:
+- ${3: music}
+description: ${4:description}
+image: /assets/img/${5:image}.jpg
+image-sm: /assets/img/$5-sm.jpg
+---
+$0
+endsnippet
