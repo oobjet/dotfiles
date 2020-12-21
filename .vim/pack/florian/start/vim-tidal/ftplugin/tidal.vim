@@ -42,6 +42,7 @@ endfunction
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Mappings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:tidal_no_mappings = 0
 
 if !exists("g:tidal_no_mappings") || !g:tidal_no_mappings
   if !hasmapto('<Plug>TidalConfig', 'n')
@@ -55,6 +56,7 @@ if !exists("g:tidal_no_mappings") || !g:tidal_no_mappings
 
   if !hasmapto('<Plug>TidalLineSend', 'n')
     nmap <buffer> <localleader>s  <Plug>TidalLineSend
+    xmap <buffer> <c-s> <Plug>TidalLineSend
   endif
 
   if !hasmapto('<Plug>TidalParagraphSend', 'n')

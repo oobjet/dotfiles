@@ -109,6 +109,8 @@ alias t="todo.sh"
 alias jo="vim ~/Dropbox/notes/2020.md"
 alias note="vim ~/Dropbox/notes/vrac.md"
 alias update="softwareupdate -i -a; brew update; brew upgrade"
+alias python=/usr/local/bin/python3
+alias expose=/Users/florian/MEGAsync/Sites/web_dev/Expose/expose.sh
 # VI in terminal
 bindkey -v
 

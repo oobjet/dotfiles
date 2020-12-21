@@ -445,7 +445,9 @@ nnoremap <silent> <leader>z :Goyo<cr>
 autocmd FileType tidal setlocal commentstring=--\ %s
 
 " tidal-vim
-" set maplocalleader=","
+let maplocalleader=","
+" nnoremap <buffer> <c-h> :TidalHush<cr>
+" nmap <buffer> <c-s>s  <Plug>TidalLineSend
 
 " fzf
 set rtp+=/usr/local/opt/fzf
@@ -455,3 +457,6 @@ map <leader>f :Files<cr>
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+
+" prettier
+packloadall
