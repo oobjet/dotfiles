@@ -1,1 +1,1 @@
-my dotfiles - macos
+my dotfiles
