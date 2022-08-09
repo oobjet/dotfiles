@@ -140,7 +140,7 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 try
-    colorscheme desert
+    colorscheme iceberg
 catch
 endtry
 
@@ -180,8 +180,8 @@ set expandtab
 set smarttab
 
 " 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 
 " Linebreak on 500 characters
 set lbr
@@ -406,7 +406,7 @@ set guioptions-=L
 
 " Colorscheme
 set background=dark
-colorscheme peaksea
+" colorscheme peaksea
 
 """"""""""""""""""
 " Spell Checking
@@ -458,5 +458,15 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
+" Notational Velocity - vim
+let g:nv_search_paths=['~/Dropbox/notes','~/Dropbox/joplin', '~/MEGAsync/textes']
+
+" mardown_imafe_paste
+autocmd FileType markdown nmap <buffer><silent> <leader>p :call mdip#MarkdownClipboardImage()<CR>
+" there are some defaults for image directory and image name, you can change them
+" let g:mdip_imgdir = 'img'
+" let g:mdip_imgname = 'image'
 " prettier
+"
 packloadall
+
